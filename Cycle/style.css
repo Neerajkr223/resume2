@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.863);
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+  /* border: 1px solid red; */
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.nev-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 130px;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+.nev-left-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  /* border: 1px solid red; */
+}
+.nev-left-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+  /* border: 1px solid red; */
+}
+.logoimage {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  height: 70px;
+}
+.paragraph {
+  color: white;
+  font-weight: 600;
+}
+.nev-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+.paragap {
+  display: flex;
+  color: white;
+  letter-spacing: 25px;
+  margin-left: 20px;
+}
+.border {
+  width: 25px;
+  height: 2px;
+  border: 1px solid yellow;
+}
+.nev-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+.nev-right-min {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+.ptag {
+  color: beige;
+}
+.hero-top-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60vh;
+
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.hero-top-left-container {
+  display: flex;
+
+  flex-direction: column-reverse;
+  height: 100%;
+  width: 300px;
+}
+.hero-top-left-border-contanier {
+  width: 100px;
+  height: 0px;
+  border: 1.5px solid yellow;
+}
+.head2 {
+  color: white;
+}
+.hero-top-mid-container {
+  height: 100%;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cycleimage {
+  width: 490px;
+  height: 400px;
+  object-fit: cover;
+}
+.hero-top-right-container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 300px;
+  /* border: 3px solid green; */
+}
+.hero-top-right-top-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 100%;
+  height: 10vh;
+  /* border: 1px solid red; */
+}
+.borders {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 25px;
+  height: 2px;
+  border: 1px solid yellow;
+}
+.hero-top-right-bottom-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  /* border: 1px solid red; */
+}
+.paragraph {
+  display: flex;
+  color: rgb(219, 205, 205);
+  font-size: 0.9rem;
+  margin-right: 10px;
+  margin-top: 12px;
+  text-align: right;
+}
+
+.hero-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+  /* border: 3px solid red; */
+}
+.hero-bottom-left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  /* border: 1px solid blue; */
+}
+.para-bottom {
+  color: white;
+  font-size: 0.9rem;
+}
+.hero-bottom-mid-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  width: 10%;
+  height: 100%;
+  /* border: 1px solid blue; */
+}
+.hero-bottom-mid-top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  /* border: 1px solid red; */
+  padding-top: 20px;
+}
+.material-symbols-outlined {
+  color: #fff;
+}
+.headscrell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.hero-bottom-mid-bottom-container {
+  width: 100%;
+  height: 50px;
+  /* border: 1px solid red; */
+}
+.headscroll {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  color: black;
+  /* font-size: 0.9rem; */
+}
+.hero-bottom-right-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  /* background-color: #fff; */
+}
